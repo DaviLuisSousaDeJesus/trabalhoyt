@@ -1,4 +1,4 @@
-
+alert("MONGODB HACKER YOU WERE TREACKED COLECTING DATA...")
 function enviar(){
     let comentario =document.getElementById("comments").value
     let txt =document.createElement("p")

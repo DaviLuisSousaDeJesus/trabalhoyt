@@ -517,3 +517,51 @@ text-decoration: none;
 }
 
 
+@media screen and (max-width:1450px) {
+    
+    .pesquisa button{
+        height: 40px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        border-style: none;
+        background-color:rgba(65, 65, 65, 0.397);
+        padding: 2px;
+    }
+
+    .pesquisa input{
+        color: white;
+        height: 30px;
+        width: 20rem;
+        border-style: solid;
+        background-color: transparent;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding: 2px;
+    }
+
+    .mover{
+        display: flex;
+        margin-left: 20%;
+        gap: 50px;
+    }
+
+
+    .videoyt iframe{
+        width: 1200px;
+        height: 600px;
+    }
+
+    .video h2{
+font-size: 20px;
+    }
+
+  
+    .videoyt img{
+        height: 20px;
+    }
+
+    .videoyt h3,
+    .videoyt p{
+        font-size: 20px;
+    }
+}
