@@ -412,7 +412,7 @@ text-decoration: none;
 .descriçao{
     color: white;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.137);
+    background-color: rgba(0, 0, 0, 0.041);
     margin-left: 5%;
     width: 73%;
     margin-top: 15px;
@@ -545,6 +545,57 @@ text-decoration: none;
         gap: 50px;
     }
 
+
+    .movimento2{
+     display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+
+    .movimento3{
+    margin-left: 20%;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+.descriçao{
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(223, 223, 223, 0.137);
+    margin-left: 5%;
+    width: 60%;
+
+}
+
+.videolateral img{
+    margin-top: 10px;
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.videolateral .escrita {
+    margin-top: 5px;
+    color: white;
+    max-width: 200px;
+}
+
+.escrita h3{
+    font-size: 15px;
+}
+
+.escrita h4{
+    margin-top: 3px;
+    font-size: 10px;
+}
+
+.escrita p{
+    margin-top: 3px;
+    font-size: 9px;
+}
 
     .videoyt iframe{
         width: 1000px;
