@@ -1,0 +1,519 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: rgba(0, 0, 0, 0.911);
+    font-family: "Roboto", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+button{
+    cursor: pointer;
+    border-style:solid;
+}
+
+/*Barra navegação yt*/
+.navbar{
+    margin-top: 20px;
+    display: inline-flex;
+    gap: 50px;
+}
+
+.logoyt{
+    margin-left: 10px
+}
+
+
+
+.pesquisa{
+    display: flex;
+}
+
+.pesquisa img{
+height: 30px;
+padding: 2px;
+cursor:pointer;
+
+}
+
+.pesquisa button{
+    height: 39px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: none;
+    background-color:rgba(65, 65, 65, 0.397);
+    padding: 2px;
+}
+.pesquisa input{
+    color: white;
+    height: 30px;
+    width: 30rem;
+    border-style: solid;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 2px;
+}
+
+
+.microfone{
+ margin-left: 10px;
+}
+.microfone img{
+    background-color: rgba(65, 65, 65, 0.397);
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.tema button{
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+
+.lighttheme{
+    background-color: white;
+}
+
+.lighttheme .inscritos,
+.lighttheme .escrita,
+.lighttheme .descriçao,
+.lighttheme .media,
+.lighttheme h2,
+.lighttheme h3,
+.lighttheme h4,
+.lighttheme .inscritos a,
+.lighttheme {
+    color: black;
+}
+
+.logoyt img {
+    height: 40px;
+    width: auto;
+    
+}
+
+
+
+
+
+/*movimento pesquisa*/
+
+.mover{
+    display: flex;
+    margin-left: 40%;
+    gap: 50px;
+}
+
+
+/*movimento perfil*/
+
+.mover2{
+    display: flex;
+    gap: 25px;
+    margin-left: 20%;
+}
+
+.profile{
+    display: flex;
+    gap: 15px;
+}
+
+
+.criar{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 7px;
+    background-color:rgba(65, 65, 65, 0.397) ;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.criar img{
+    height: 20px;
+    width: 20px;
+}
+
+.criar h3{
+    color: white;
+    font-size: 15px;
+}
+
+
+.profile img{
+    height: 40px;
+    width: auto;
+    border-radius: 50px;
+}
+
+/*video*/
+
+.video{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.video h2{
+    color: white;
+    font-size: 30px;
+}
+
+
+/*Nav abaixo do video*/
+
+.navdescricao{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.navdescricao img{
+    height: 50px;
+    width: auto;
+    border-radius: 25px;
+}
+
+.inscritos  a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.inscritos{
+    color: white;
+    font-size: 12px;
+}
+
+
+.group button{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.322);
+    border-radius: 10px;
+    padding: 10px;
+    border-style: none;
+}
+
+.subscribe button{
+    color: rgb(7, 7, 7);
+    background-color: rgb(255, 251, 251);
+    border-radius: 10px;
+    padding: 15px;
+    border-style: none;
+}
+
+.satisfaçao{
+    display: flex;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.322);
+    height: 30px;
+    gap: 5px;
+    border-radius: 10px;
+    
+}
+
+.satisfaçao h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+.satisfaçao p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.satisfaçao button{
+    background-color: transparent;
+    border-style: none;
+    height: 10px;
+}
+
+.satisfaçao img{
+    height: 30px;
+    width: auto;
+}
+
+.share button{
+    background-color: rgba(0, 0, 0, 0.322);
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    gap: 3px;
+    align-items: center;
+    padding: 5px;
+    display: flex;
+    font-size: 20px;
+}
+
+.share img{
+    height: 30px;
+}
+
+.scissor button{
+    background-color: rgba(0, 0, 0, 0.322);
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    gap: 3px;
+    align-items: center;
+    padding: 5px;
+    display: flex;
+    font-size: 20px;
+}
+.scissor img{
+    height: 30px;
+    border-radius: 0;
+}
+
+.save button{
+    background-color: rgba(0, 0, 0, 0.322);
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    gap: 3px;
+    align-items: center;
+    padding: 5px;
+    display: flex;
+    font-size: 20px;
+}
+
+.save img{
+     height: 30px;
+    border-radius: 0;
+}
+
+/*movimento nav*/
+.movimento{
+    display: flex;
+    gap: 12px;
+}
+
+.movimento2{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.movimento3{
+    margin-left: 40%;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+/*Hovers*/
+
+.pesquisa button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.microfone img:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.criar:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.group button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.subscribe button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.lkdilk button:hover{
+    background-color: gray;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.share:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.scissor:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.save:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.transcript button:hover{
+    background-color: rgba(138, 183, 250, 0.925);
+    cursor: pointer;
+}
+
+
+.squarevideo button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.about:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.insta:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+/*video lateral*/
+ 
+.videolateral a{
+text-decoration: none;
+}
+
+.videolateral img{
+    margin-top: 10px;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.videolateral .escrita {
+    margin-top: 5px;
+    color: white;
+    max-width: 300px;
+}
+
+.escrita h4{
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.escrita p{
+    margin-top: 3px;
+    font-size: 11px;
+}
+
+/*descriçao*/
+.descriçao{
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.137);
+    margin-left: 5%;
+    width: 73%;
+    margin-top: 15px;
+}
+.descriçao p{
+    margin-top: 5px;
+    margin-left: 12px;
+}
+
+.transcript button{
+    color: rgb(0, 102, 255);
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: gray;
+    font-size: 15px;
+}
+
+.navdescricaovideo{
+    margin-top: 15px;
+    margin-left: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.navdescricaovideo img{
+    height: 50px;
+    width: auto;
+    border-radius: 25px;
+}
+
+/*media*/
+
+.media{
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.media h3{
+    margin-top: 12px;
+    color: white;
+   gap: 3px;
+}
+
+.media img{
+    height: 40px;
+
+}
+
+.media button{
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: gray;
+    padding: 5px;
+}
+
+.media a{
+    display: flex;
+    text-decoration: none;
+}
+
+
+.comentario{
+    margin-top: 20px;
+    margin-left: 5%;
+    color: white;
+}
+
+.comentario img{
+    border-radius: 50px;
+    height: auto;
+    width: 50px;
+}
+
+.comentario input{
+    color: white;
+    background-color:transparent;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgba(90, 88, 88, 0.644);
+    width: 50%;
+}
+
+.comentario button{
+    margin-left: 53%;
+    margin-top: 10px;
+}
+
+.comentario button{
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+}
+
+.comentario button:hover{
+    background-color:#3ea6ff;
+}
+
+
